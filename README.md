@@ -1,0 +1,3 @@
+
+* gradle compileJava
+* gradle publishToMavenLocal
