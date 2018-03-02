@@ -1,4 +1,19 @@
 ### Antlr4 + Gradle 4.6 Sample Project
 
-* Generate Antlr sources and compile them: `gradle compileJava`
-* Publish Jar to your local repository: `gradle publishToMavenLocal`
+#### Generate Antlr sources
+
+`gradle compileJava`
+
+#### Test with Grun
+
+```
+$ cd build/classes/java/main
+$ grun net.davidesavazzi.mylanguage.Chat chat -tokens -gui
+john SAYS: hello
+CTRL-D
+```
+
+#### Publish Jar
+
+`gradle publishToMavenLocal`
+
